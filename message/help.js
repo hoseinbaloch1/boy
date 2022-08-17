@@ -24,7 +24,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
 	
   _*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}*_
 
- Library : *Baileys-MD*.
+ Library : *ساتا*.
  Prefix : ( ${prefix} )
  Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
  Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
@@ -34,7 +34,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
  Balance : $${toCommas(getBalance(sender, balance))}
 
- *MAIN MENU*
+ *دستورات پیش فرض*
  *≻* ${prefix}menu
  *≻* ${prefix}owner
  *≻* ${prefix}donasi
@@ -44,7 +44,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}listprem
  *≻* ${prefix}dashboard
 
- *STORE MENU*
+ *دستورات پشتیبانی*
  *≻* ${prefix}list
  *≻* ${prefix}addlist
  *≻* ${prefix}dellist
@@ -56,7 +56,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}kali
  *≻* ${prefix}bagi
 
- *CONVERTER/TOOLS*
+ *دستورات سیستم*
  *≻* ${prefix}sticker
  *≻* ${prefix}toimg
  *≻* ${prefix}tovid
@@ -68,7 +68,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}ssweb-tablet
  *≻* ${prefix}ssweb-phone
 
- *DOWNLOADER*
+ *دستورات دانلود*
  *≻* ${prefix}play
  *≻* ${prefix}tiktok
  *≻* ${prefix}ytmp4
@@ -78,13 +78,13 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}instagram
  *≻* ${prefix}facebook
   
- *RANDOM MENU*
+ *دستورات رندوم*
  *≻* ${prefix}quote
  *≻* ${prefix}cecan
  *≻* ${prefix}cogan
  *≻* ${prefix}ppcouple
 
- *ASUPAN MENU*
+ *دستورات اسپن*
  *≻* ${prefix}bocil
  *≻* ${prefix}geayubi
  *≻* ${prefix}hijaber
@@ -92,12 +92,12 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}santuy
  *≻* ${prefix}ukhty
   
- *SEARCH MENU*
+ *دستورات پخش*
  *≻* ${prefix}lirik
  *≻* ${prefix}grupwa
  *≻* ${prefix}ytsearch
 
- *SOUND MENU*
+ *دستورات اهنگ*
  *≻* ${prefix}sound1
  *≻* ${prefix}sound2
  *≻* ${prefix}sound3
@@ -173,7 +173,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}sound73
  *≻* ${prefix}sound74
  
- *IMAGE EDIT MENU*
+ *دستورات ادیت عکس*
  *≻* ${prefix}circle
  *≻* ${prefix}beautiful
  *≻* ${prefix}blur
@@ -196,7 +196,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}gfx4
  *≻* ${prefix}gfx5
 
- *TEXTPRO MENU*
+ *دستورات ادیت تکست*
  *≻* ${prefix}pencil
  *≻* ${prefix}glitch
  *≻* ${prefix}glitch2
@@ -217,7 +217,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}chocolate-cake
  *≻* ${prefix}strawberry
 
- *PHOTOOXY MENU*
+ *دستورات لوگو*
  *≻* ${prefix}flaming
  *≻* ${prefix}shadow-sky
  *≻* ${prefix}naruto
@@ -232,19 +232,19 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}illuminated-metallic
  *≻* ${prefix}sweet-candy
  
- *GAME MENU*
+ *دستورات بازی*
  *≻* ${prefix}tictactoe
  *≻* ${prefix}delttc
  *≻* ${prefix}tebakgambar
   
- *PAYMENT & BANK*
+ *دستورات شخصی*
  *≻* ${prefix}buylimit
  *≻* ${prefix}buyglimit
  *≻* ${prefix}transfer
  *≻* ${prefix}limit
  *≻* ${prefix}balance
   
- *GROUP MENU*
+ *دستورات گروه*
  *≻* ${prefix}linkgrup
  *≻* ${prefix}setppgrup
  *≻* ${prefix}setnamegc
@@ -255,7 +255,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}hidetag
  *≻* ${prefix}fakehidetag
   
- *OWNER MENU*
+ *دستورات مدیر *
  > evalcode
  x evalcode-2
  $ executor
@@ -268,9 +268,9 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  *≻* ${prefix}delprem
 
  *THANKS TO*
- *≻* Irfan H.
- *≻* Fatih Arridho
- *≻* Yog Azz
- *≻* Faiz Frdnd
- *≻* Riy 04`
+ *≻* BALOCH EDIT
+ *≻* HOSEIN SARBAZI
+ *≻* SATA TIME
+ *≻* SATA
+ *≻* AMIR
 }
