@@ -20,7 +20,7 @@ function toCommas(x) {
 }
 
 exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount) => {
-	return `*── 「 ${setting.botName} 」 ──*
+	return `*── 「 ساتا 」 ──*
 	
   _*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}*_
 
